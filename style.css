@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scrollbar-color: rgba(255, 206, 214, 0.774) rgba(255, 88, 88, 0.411);
+}
+.navbar{
+    z-index: 100;
+    width: 100vw;
+    height: 130px;
+    background: linear-gradient(to bottom, rgb(27, 67, 241),rgba(250, 73, 73, 0.74));
+}
+.myh1{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.btns{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.mybtn{
+    background: none;
+    border: none;
+    margin-right: 12px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
+}
+.mybtn1{
+    background-color: rgb(255, 136, 0);
+    border-radius: 10px;
+    padding: 3px 22px;
+}
+.mybtn2{
+    background-color: rgb(255, 51, 0);
+    border-radius: 10px;
+    padding: 3px 22px;
+}
+.mybtn3{
+    background-color: rgb(0, 174, 255);
+    border-radius: 10px;
+    padding: 3px 29px;
+}
+.mybtn:hover{
+    background-color: rgb(0, 38, 255);
+}
+.mybtn:active{
+    transform: translateY(3px);
+    background-color: black;
+
+}
+@media (max-width: 495px){
+    .mybtn{
+        font-size: 0.9em;
+    }
+    .myh1{
+        font-size: 11px;
+    }
+}
+.circle{
+    z-index: -5;
+    background-color: rgba(255, 109, 133, 0.281);
+    border-radius: 500px;
+    border: 2px solid rgba(243, 81, 81, 0.048);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.315);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(248, 89, 89, 0.603);
+}
+.text1{
+    /* z-index: 500; */
+    width: 80vw;
+    height: 170px;
+    margin: auto;
+    
+}
+.text2{
+    width: 80vw;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, 0.233);
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.438);
+    cursor: default;
+    
+}
+.myh2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.p1{
+    padding: 7px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.705);
+}
+.s{
+    color: rgb(119, 235, 119);
+}
+.s2{
+    color: rgb(236, 12, 225);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    
+    height: 230px;
+}
+.backbox{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 28%;
+    border: 2px solid rgba(129, 14, 95, 0.11);
+    background-color: rgba(161, 10, 175, 0.596);
+    cursor: default;
+}
+.pic{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    right: 30%;
+    top: 20px;
+    border: 2px solid rgba(129, 14, 95, 0.11);
+    background-color: rgba(0, 0, 0, 0.596);
+    cursor: default;
+}
+.timeBox{
+    padding: 10px;
+    font-weight: bold;
+}
+.timeBox li{
+    color: brown;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.s3{
+    color: red;
+}
+.pad{
+    padding: 10px;
+    font-size: 1.1em;
+
+}
+.place{
+    overflow-y: hidden;
+    text-align: center;
+}
+.b11{
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: rgba(255, 0, 0, 0.397);
+    border-radius: 13px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.b11:hover{
+    background-color: rgba(255, 0, 0, 0.76);
+    color: rgb(221, 221, 221);
+}
+.b11:active{
+    background-color: rgba(255, 0, 0, 0.5);
+    color: rgb(71, 109, 233);
+}
+.a{
+    margin-top: 8px;
+    overflow: hidden;
+}
+.foot{
+    border: 2px solid rgba(190, 40, 40, 0.226);
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: rgba(255, 0, 0, 0.363);
+}
+.text22{
+    color: rgba(47, 0, 255, 0.548);
+    width: 200px;
+    height: 190px;
+    border: 2px solid rgba(216, 63, 63, 0.233);
+   
+    border-radius: 15px;
+    background-color: rgba(248, 153, 153, 0.438);
+    
+}
